@@ -9,6 +9,9 @@ WORKDIR /usr/src/app
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin 
 
+ENV PORT=3004
+ENV HOST=0.0.0.0
+
 RUN npm install -g json-server
 
 # Install app dependencies
@@ -25,4 +28,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 3004
-CMD ["json-server", "index.js", "--host", "0.0.0.0", "--port", "3004"]
+CMD json-server index.js --host $HOST --port $PORT
