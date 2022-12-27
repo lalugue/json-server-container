@@ -1,2 +1,23 @@
+/*
+    Adapted from Gary Gitton's dockerignore collection (MIT License)
+    https://github.com/garygitton/dockerignore/blob/aa4d3c00dac6fce920cfbdb5a6a6a219f5e0f5e8/LICENSE
+*/
+
+// Node
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 node_modules
-npm-debug.log
+
+// Git
+.git
+.gitattributes
+.gitignore
+
+// Common
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+.dockerignore
