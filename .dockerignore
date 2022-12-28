@@ -1,9 +1,8 @@
-/*
-    Adapted from Gary Gitton's dockerignore collection (MIT License)
-    https://github.com/garygitton/dockerignore/blob/aa4d3c00dac6fce920cfbdb5a6a6a219f5e0f5e8/LICENSE
-*/
+#   Adapted from Gary Gitton's dockerignore collection (MIT License)
+#   https://github.com/garygitton/dockerignore/blob/aa4d3c00dac6fce920cfbdb5a6a6a219f5e0f5e8/LICENSE
 
-// Node
+
+# Node
 logs
 *.log
 npm-debug.log*
@@ -11,12 +10,12 @@ yarn-debug.log*
 yarn-error.log*
 node_modules
 
-// Git
+# Git
 .git
 .gitattributes
 .gitignore
 
-// Common
+# Common
 CHANGELOG.md
 docker-compose.yml
 Dockerfile
