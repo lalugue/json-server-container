@@ -2,7 +2,7 @@
 
 A quick and simple container-ized [json-server](https://github.com/typicode/json-server) for local frontend development and experiments
 
-Try a built image from [Docker Hub](https://hub.docker.com/r/lalugue/json-server-container)
+Try a built image from [Docker Hub](https://hub.docker.com/r/lalugue/json-server-container) 🐳
 
 # How to build the image
 
@@ -24,13 +24,13 @@ docker run -dp 3004:3004 <your-username>/json-server-container
 
 If the image was pulled from [Docker Hub](https://hub.docker.com/r/lalugue/json-server-container), set `<your-username>` as `lalugue` instead
 
-Afterwards, access/GET the sample route at port 3004:
+Afterwards, access/GET the sample route at port 3004; alternatively, open the following link in a web browser:
 
 ```
 http://localhost:3004
 ```
 
-For additional `json-server` features and routes, please check the readme: [link](https://github.com/typicode/json-server/blob/master/README.md)
+For additional `json-server` features and routes, please check the its readme: [link](https://github.com/typicode/json-server/blob/master/README.md)
 
 # Sources and Guides
 
